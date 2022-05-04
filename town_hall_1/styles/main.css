@@ -2,6 +2,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+	border-style: solid;
 	border-width: 3px;
 	border-color: #931420;
 	border-inline-width: 600px;
@@ -11,6 +12,11 @@ body {
 }
 
 /* the styles for the header */
+header{
+	border-bottom: 3px, solid;
+	border-color: #931420;
+
+}
 header img {
 	float: left;
 }
@@ -47,5 +53,7 @@ main :hover{
 
 /* the styles for the footer */
 footer p{
+	border-bottom: 3px, solid;
+	border-color: #931420;
 	text-align: center;
 }
